@@ -35,8 +35,9 @@ const ShowTodo = () => {
 
   },[])
   return (
-    <div>
-          <TodoList todo={todo}></TodoList>/
+    <div className= 'mt-[50px]  w-[90%] mx-auto '>
+       
+          <TodoList todo={todo}></TodoList>
     </div>
   )
 }
